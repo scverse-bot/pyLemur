@@ -1,36 +1,20 @@
-# Created by pytest automatically.
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+# Temp files
+.DS_Store
+*~
+buck-out/
 
-# C extensions
-*.so
+# Compiled files
+.venv/
+__pycache__/
+.*cache/
 
 # Distribution / packaging
-bin/
-build/
-develop-eggs/
-dist/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+/dist/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Tests and coverage
+/data/
+/node_modules/
 
-# Unit test / coverage reports
-.tox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-
-.pytest_cache/
-.vscode/
+# docs
+/docs/generated/
+/docs/_build/
